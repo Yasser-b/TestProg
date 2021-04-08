@@ -411,37 +411,37 @@ int main(){
         Solver2 s(p);
         Fichier <<s.return_value <<endl;
         for (int i=0; i<p.n; i++){
-        Fichier <<"dim" <<i <<": " <<s.solution[i] <<endl;
+        Fichier <<"variable[" <<i <<": " <<s.solution[i] <<endl;
     }}
     if(num_solv==3){
         Solver3 s(p);
         Fichier <<s.return_value <<endl;
         for (int i=0; i<p.n; i++){
-        Fichier <<"dim" <<i <<": " <<s.solution[i] <<endl;
+        Fichier <<"variable[" <<i <<": " <<s.solution[i] <<endl;
     }}
     if(num_solv==4){
         Solver4 s(p);
         Fichier <<s.return_value <<endl;
         for (int i=0; i<p.n; i++){
-        Fichier <<"dim" <<i <<": " <<s.solution[i] <<endl;
+        Fichier <<"variable[" <<i <<": " <<s.solution[i] <<endl;
     }}
     if(num_solv==5){
         Solver5 s(p);
         Fichier <<s.return_value <<endl;
         for (int i=0; i<p.n; i++){
-        Fichier <<"dim" <<i <<": " <<s.solution[i] <<endl;
+        Fichier <<"variable[" <<i <<": " <<s.solution[i] <<endl;
     }}
     if(num_solv==6){
         Solver6 s(p);
         Fichier <<s.return_value <<endl;
         for (int i=0; i<p.n; i++){
-        Fichier <<"dim" <<i <<": " <<s.solution[i] <<endl;
+        Fichier <<"variable[" <<i <<": " <<s.solution[i] <<endl;
     }}
     if(num_solv==7){
         Solver7 s(p);
         Fichier <<s.return_value <<endl;
         for (int i=0; i<p.n; i++){
-        Fichier <<"dim" <<i <<": " <<s.solution[i] <<endl;
+        Fichier <<"variable[" <<i <<": " <<s.solution[i] <<endl;
     }}
     }
     else { cout <<"ERREUR: Impossible d'ouvrir le fichier."<<endl;}
